@@ -1,0 +1,112 @@
+body {
+    margin: 0%;
+    font-family: "Poppins", sans-serif;
+}
+
+.top {
+    height: 70px;
+    background-color: #1b2f2f;
+    display: flex;
+    align-items: center;
+}
+
+.bottom {
+    position: relative;
+    background-image: url(Background.jpeg);
+    height: calc(100vh - 70px);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: right;
+    background-color: #285349;
+}
+
+.bottom:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(59,90,87,0.2);
+    z-index: 2;
+}
+
+.nest {
+    color: white;
+    font-size: 30px;
+    margin: 20px;
+    font-weight: 600;
+}
+
+.link {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.links {
+    margin-left: auto;
+    margin-right: 270px;
+}
+
+.link:hover {
+    background-color: white;
+    color: #285349;
+}
+
+.desc {
+    color: white;
+    font-size: 50px;
+}
+
+.desc::selection {
+    color: #285349;
+    background-color: white;
+}
+
+.nest::selection {
+    color: #1b2f2f;
+    background-color: white;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 130px;
+    right: 220px;
+    font-weight: 600;
+    z-index: 12;
+}
+
+.buttons {
+    margin-top: 60px;
+}
+
+.learn {
+    padding: 15px 23px;
+    text-decoration: none;
+    color: white;
+    border: white solid;
+    border-radius: 5px;
+    margin-right: 40px;
+    transition: all 0.3s ease;
+}
+
+.learn:hover {
+    color: #285349;
+    background-color: white;
+}
+
+.sub {
+    padding: 15px 32px;
+    background-color: white;
+    color: #285349;
+    text-decoration: none;
+    border: white solid;
+    border-radius: 5px;
+}
