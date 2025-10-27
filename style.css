@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0%;
     font-family: "Poppins", sans-serif;
@@ -109,4 +113,5 @@ body {
     text-decoration: none;
     border: white solid;
     border-radius: 5px;
+
 }
